@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-@Injectable()
+@Injectable()//->Decorador
 export class HeroesService {
 
   private heroes:Heroe[]=[
@@ -56,11 +56,15 @@ export class HeroesService {
   ];
 
   constructor() {
-    console.log('Servicio listo parausar');
+    console.log('Servicio listo para usar');
   }
 
   getHeroes(){
     return this.heroes;
+  }
+
+  getHeroe(idx:string){
+    return this.heroes[idx];
   }
 
 }

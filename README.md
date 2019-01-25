@@ -28,7 +28,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Instalar Bootstrap
 1.- Ir a : http://getbootstrap.com/ y copiar los CDN en index.html
+
 2.- Descargar boostrap localmente
-3.- npm install bootstrap --save
+
+3.- Instalar con npm
+
+    npm install bootstrap --save
     npm install jquery --save
     npm install popper.js --save
